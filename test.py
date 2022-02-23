@@ -15,10 +15,21 @@ import time
 import rook
 
 
+a = 5
+e = 6
+
+
+class A:
+   a = 1
+   b = 2
+   
 def main():
     while True:
         try:
             now = time.time()
+            b = 4
+            c = 3
+            e = A()
             time.sleep(2)
             print("time: ", now)
 
