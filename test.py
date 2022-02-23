@@ -32,6 +32,9 @@ def main():
             c = 3
             f = A()
             e = 8
+            g = [1,2,3]
+            dict_obj = {"a": a, "b": b}
+            dict_obj2 = {"f": f}
             time.sleep(2)
             print("time: ", now)
 
