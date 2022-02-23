@@ -17,6 +17,7 @@ import rook
 
 a = 5
 e = 6
+g = 10
 
 
 class A:
@@ -29,7 +30,8 @@ def main():
             now = time.time()
             b = 4
             c = 3
-            e = A()
+            f = A()
+            e = 8
             time.sleep(2)
             print("time: ", now)
 
