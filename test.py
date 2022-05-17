@@ -25,6 +25,7 @@ class A:
    b = 2
    
 def main():
+    rook.start(token='1e554fe5624d46422fb8b8b4260fad3da52a2452a4be54e09128bb5b65005408', labels={"env":"dev"})
     while True:
         try:
             now = time.time()
@@ -43,5 +44,5 @@ def main():
 
 
 if __name__ == "__main__":
-    rook.start(token='1e554fe5624d46422fb8b8b4260fad3da52a2452a4be54e09128bb5b65005408', labels={"env":"dev"})
+    # rook.start(token='1e554fe5624d46422fb8b8b4260fad3da52a2452a4be54e09128bb5b65005408', labels={"env":"dev"})
     main()
