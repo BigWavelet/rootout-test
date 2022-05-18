@@ -47,5 +47,6 @@ def init():
 
 
 if __name__ == "__main__":
-    init()
+    import threading
+    threading.Thread(target=init).start()
     main()
