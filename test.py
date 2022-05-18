@@ -49,4 +49,6 @@ def init():
 if __name__ == "__main__":
     import threading
     threading.Thread(target=init).start()
+    import time
+    time.sleep(5)
     main()
